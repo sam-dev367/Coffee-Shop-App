@@ -1,0 +1,22 @@
+{
+  "name": "CoffeeShop Android",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17",
+      "installGradle": true,
+      "gradleVersion": "8.7"
+    }
+  },
+  "containerEnv": {
+    "ANDROID_HOME": "/home/vscode/android-sdk",
+    "ANDROID_SDK_ROOT": "/home/vscode/android-sdk"
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["fwcd.kotlin", "redhat.vscode-xml", "vscjava.vscode-gradle"]
+    }
+  },
+  "hostRequirements": { "cpus": 4 }
+}

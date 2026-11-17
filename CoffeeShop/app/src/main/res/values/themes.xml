@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.CoffeeShop" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/coffee_accent</item>
+        <item name="colorOnPrimary">@color/coffee_bg</item>
+        <item name="colorSurface">@color/coffee_card</item>
+        <item name="android:windowBackground">@color/coffee_bg</item>
+        <item name="android:statusBarColor">@color/coffee_bg</item>
+        <item name="android:textColor">@color/coffee_text</item>
+    </style>
+</resources>

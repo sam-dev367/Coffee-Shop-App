@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="coffee_bg">#1A1410</color>
+    <color name="coffee_card">#2A211B</color>
+    <color name="coffee_accent">#D9A066</color>
+    <color name="coffee_text">#F3E9DC</color>
+    <color name="coffee_muted">#B8A898</color>
+</resources>
