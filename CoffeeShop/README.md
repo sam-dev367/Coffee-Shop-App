@@ -63,6 +63,8 @@ Codespaces has no emulator, so test the APK on a real phone.
 ## Using Android Studio instead
 Open the folder in Android Studio, let Gradle sync, and press Run.
 
+Download the APK from the Releases section on the right.
+
 ## Tech stack
 Kotlin, XML layouts, RecyclerView, Material Design 3, View Binding, Gradle (Kotlin DSL)
 
