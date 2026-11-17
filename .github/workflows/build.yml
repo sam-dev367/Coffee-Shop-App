@@ -21,12 +21,10 @@ jobs:
           gradle-version: 8.7
 
       - name: Build debug APK
+        working-directory: CoffeeShop
         run: gradle assembleDebug
-        - name: Build with Gradle
-          working-directory: CoffeeShop
-          run: ./gradlew assembleDebug
 
       - uses: actions/upload-artifact@v4
         with:
           name: CoffeeShop-APK
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: CoffeeShop/app/build/outputs/apk/debug/app-debug.apk
